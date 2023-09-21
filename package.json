@@ -1,0 +1,15 @@
+{
+  "name": "@aaronburt/trycatch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/main.js",
+  "type": "module",
+  "scripts": {
+    "watch-compile": "tsc --watch",
+    "nodemon-watch": "nodemon ./dist/main.js",
+    "dev": "concurrently \"npm run watch-compile\" \"npm run nodemon-watch\""
+  },
+  "keywords": [],
+  "author": "aaronburt",
+  "license": "ISC"
+}
